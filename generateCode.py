@@ -4,7 +4,7 @@ import time
 keyboard = Controller()
 sign = ["+","-","*","/"]
 time.sleep(2)
-for x in range(43,100):
+for x in range(0,100):
     for y in range(100):
         for z in range(len(sign)):
             if sign[z] == "/":
